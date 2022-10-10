@@ -1,0 +1,40 @@
+body {
+    background-color: #10ac84;
+}
+
+.container .line {
+    width: 150px;
+    height: 7px;
+    color: rgb(166, 114, 18);
+    background-color: rgb(133, 32, 32);
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bg-golg {
+    background-color: gold;
+}
+
+#six {
+    background-color: 20px solid navy;
+}
+
+.card-data:hover {
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.card-zoom {
+    border-radius: 50%;
+}
+
+.card-zoom:hover {
+    margin-top: 20px;
+    border: 2px solid black;
+    zoom: 2px;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
